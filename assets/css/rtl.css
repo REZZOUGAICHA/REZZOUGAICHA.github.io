@@ -17,6 +17,16 @@
   line-height: 1.9;
 }
 
+[dir="rtl"] .content h1,
+[dir="rtl"] .content h2,
+[dir="rtl"] .content h3,
+[dir="rtl"] .content h4,
+[dir="rtl"] .content h5,
+[dir="rtl"] .content h6 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+}
+
 /* Sidebar sits on the right in RTL */
 [dir="rtl"] #sidebar {
   right: 0;

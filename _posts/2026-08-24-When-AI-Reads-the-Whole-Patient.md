@@ -1,15 +1,13 @@
 ---
 title: "عندما يقرأ الذكالي المريض بأكمله"
 description: "من العزلة بين الصورة والجين والملف السريري إلى نموذج واحد يقرأ مريض سرطان اللمفاويات بأكمله."
-author: رزوق عائشة
+author: aicha
 date: 2026-08-24 12:00:00 +0100
 categories: [Projects]
 tags: []
 direction: rtl
 media_subpath: /assets/img/when-ai-reads-the-whole-patient/
 ---
-
-# عندما يقرأ الذكالي المريض بأكمله
 
 نحو تشخيص وتنبؤ وعلاج أدق لسرطان اللمفاويات
 

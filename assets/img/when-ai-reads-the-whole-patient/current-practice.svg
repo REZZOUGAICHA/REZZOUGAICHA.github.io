@@ -1,0 +1,35 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" font-family="Tahoma, Arial, sans-serif">
+  <rect width="900" height="300" fill="#fbfaf7"/>
+  <text x="450" y="35" text-anchor="middle" font-size="18" fill="#333333">ماذا يستعمل الأطباء اليوم؟</text>
+
+  <!-- step 1: biopsy (right) -->
+  <rect x="700" y="80" width="150" height="90" rx="10" fill="#eef2f7" stroke="#4b6b8a" stroke-width="2"/>
+  <text x="775" y="115" text-anchor="middle" font-size="13" fill="#22344a">خزعة وفحص</text>
+  <text x="775" y="135" text-anchor="middle" font-size="13" fill="#22344a">تحت المجهر</text>
+  <text x="775" y="155" text-anchor="middle" font-size="10" fill="#5b6b7a">يدويًا من طبيب مختص</text>
+
+  <path d="M700 125 L 570 125" stroke="#8a97a6" stroke-width="2" marker-end="url(#a4)"/>
+
+  <!-- step 2: IPI score -->
+  <rect x="410" y="80" width="150" height="90" rx="10" fill="#fdf3e3" stroke="#b8862f" stroke-width="2"/>
+  <text x="485" y="112" text-anchor="middle" font-size="13" fill="#5a3f10">حساب مؤشر IPI</text>
+  <text x="485" y="132" text-anchor="middle" font-size="10" fill="#8a6a2f">5 عوامل سريرية</text>
+  <text x="485" y="150" text-anchor="middle" font-size="10" fill="#8a6a2f">بسيطة فقط</text>
+
+  <path d="M410 125 L 280 125" stroke="#8a97a6" stroke-width="2" marker-end="url(#a4)"/>
+
+  <!-- step 3: treatment -->
+  <rect x="120" y="80" width="150" height="90" rx="10" fill="#eef7f0" stroke="#4a8a5c" stroke-width="2"/>
+  <text x="195" y="112" text-anchor="middle" font-size="13" fill="#22402a">علاج كيميائي</text>
+  <text x="195" y="132" text-anchor="middle" font-size="10" fill="#5b7a63">بروتوكول R-CHOP</text>
+  <text x="195" y="150" text-anchor="middle" font-size="10" fill="#5b7a63">موحّد لمعظم الحالات</text>
+
+  <text x="450" y="230" text-anchor="middle" font-size="12" fill="#8a97a6">هذا المسار لا يستخدم الصورة والجين والملف السريري معًا في آن واحد</text>
+  <text x="450" y="255" text-anchor="middle" font-size="12" fill="#8a97a6">وهي بالضبط الفجوة التي يحاول هذا المشروع سدّها</text>
+
+  <defs>
+    <marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#8a97a6"/>
+    </marker>
+  </defs>
+</svg>

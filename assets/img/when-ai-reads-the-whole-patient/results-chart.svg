@@ -1,0 +1,43 @@
+<svg viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" font-family="Tahoma, Arial, sans-serif">
+  <rect width="900" height="460" fill="#fbfaf7"/>
+  <text x="450" y="35" text-anchor="middle" font-size="18" fill="#333333">تحسّن الأداء مع كل مصدر بيانات إضافي</text>
+
+  <!-- axis -->
+  <line x1="80" y1="380" x2="850" y2="380" stroke="#999999" stroke-width="1.5"/>
+
+  <!-- bars, values scaled: 0.405 -> baseline, up to 0.790 -->
+  <!-- scale: value*400 for bar height roughly, baseline at y=380 -->
+
+  <!-- IPI baseline -->
+  <rect x="770" y="217" width="60" height="163" fill="#d9d9d9" stroke="#999999" stroke-width="1.5"/>
+  <text x="800" y="205" text-anchor="middle" font-size="13" fill="#333333">0.405</text>
+  <text x="800" y="400" text-anchor="middle" font-size="11" fill="#5b6b7a">IPI</text>
+  <text x="800" y="416" text-anchor="middle" font-size="10" fill="#8a97a6">(المقياس الحالي)</text>
+
+  <!-- clinical only -->
+  <rect x="670" y="164" width="60" height="216" fill="#f7f0ee" stroke="#a1614c" stroke-width="1.5"/>
+  <text x="700" y="152" text-anchor="middle" font-size="13" fill="#333333">0.539</text>
+  <text x="700" y="400" text-anchor="middle" font-size="11" fill="#5b6b7a">سريري فقط</text>
+
+  <!-- gene only -->
+  <rect x="570" y="135" width="60" height="245" fill="#eef7f0" stroke="#4a8a5c" stroke-width="1.5"/>
+  <text x="600" y="123" text-anchor="middle" font-size="13" fill="#333333">0.612</text>
+  <text x="600" y="400" text-anchor="middle" font-size="11" fill="#5b6b7a">جيني فقط</text>
+
+  <!-- image only -->
+  <rect x="470" y="90" width="60" height="290" fill="#eef2f7" stroke="#4b6b8a" stroke-width="1.5"/>
+  <text x="500" y="78" text-anchor="middle" font-size="13" fill="#333333">0.725</text>
+  <text x="500" y="400" text-anchor="middle" font-size="11" fill="#5b6b7a">صورة فقط</text>
+
+  <!-- best bimodal -->
+  <rect x="370" y="63" width="60" height="317" fill="#e3ecf5" stroke="#4b6b8a" stroke-width="1.5"/>
+  <text x="400" y="51" text-anchor="middle" font-size="13" fill="#333333">0.759</text>
+  <text x="400" y="400" text-anchor="middle" font-size="11" fill="#5b6b7a">أفضل ثنائي</text>
+
+  <!-- trimodal full -->
+  <rect x="200" y="42" width="90" height="338" fill="#f3ecf9" stroke="#7a5ba6" stroke-width="2.5"/>
+  <text x="245" y="28" text-anchor="middle" font-size="15" fill="#3a2a52" font-weight="bold">0.790</text>
+  <text x="245" y="400" text-anchor="middle" font-size="12" fill="#3a2a52" font-weight="bold">الوسائط الثلاث</text>
+
+  <text x="450" y="435" text-anchor="middle" font-size="11" fill="#8a97a6">مؤشر C (C-index) — كل مصدر بيانات إضافي يرفع دقة التنبؤ</text>
+</svg>

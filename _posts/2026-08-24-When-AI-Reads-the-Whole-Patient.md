@@ -185,13 +185,6 @@ media_subpath: /assets/img/when-ai-reads-the-whole-patient/
 
 ## مراجع وموارد للتعمق
 
-### العمل الرئيسي
-
-### Multimodal and Personalized Optimization of Diagnostic and Therapeutic Predictions in Lymphoma
-
-رزوق عائشة ومالك أمينة، مذكرة تخرج لنيل شهادة مهندس دولة في الإعلام الآلي، المدرسة الوطنية العليا للمعلوماتية (وتُختصر باسمها الفرنسي ESI)، بإشراف Dr. Dellys Hachemi Nabil، Dr. Artabaz Saliha، وDr. Layth Sliman، 2025/2026.
-
-يقدم هذا العمل مراجعة شاملة لتطبيقات الذكالي متعدد الوسائط في سرطان اللمفاويات، إلى جانب بناء وتقييم نموذج عملي يجمع بين الصورة والجين والسجل السريري.
 
 ### مراجع أساسية
 

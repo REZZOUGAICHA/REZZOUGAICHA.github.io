@@ -1,36 +1,61 @@
-<svg viewBox="0 0 900 380" width="900" height="380" xmlns="http://www.w3.org/2000/svg" font-family="Tahoma, Arial, sans-serif">
-  <rect width="900" height="380" fill="#fbfaf7"/>
-  <text x="450" y="35" text-anchor="middle" font-size="18" fill="#333333">مجموعتا البيانات المستخدمتان</text>
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="Tahoma, 'Segoe UI', Arial, sans-serif">
+  <rect width="1000" height="480" fill="#FAF7F2"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1E2A38">مجموعتا البيانات المستخدمتان</text>
 
-  <!-- right card: TCGA-DLBC -->
-  <rect x="480" y="60" width="360" height="280" rx="14" fill="#f3ecf9" stroke="#7a5ba6" stroke-width="2"/>
-  <text x="660" y="100" text-anchor="middle" font-size="18" fill="#3a2a52">TCGA-DLBC</text>
-  <text x="660" y="140" text-anchor="middle" font-size="30" fill="#3a2a52" font-weight="bold">48</text>
-  <text x="660" y="160" text-anchor="middle" font-size="13" fill="#6b5a80">مريضًا</text>
+  <!-- TCGA-DLBC column -->
+  <g>
+    <rect x="60" y="70" width="410" height="380" rx="12" fill="#FFFFFF" stroke="#2F7D78" stroke-width="2"/>
+    <text x="265" y="102" text-anchor="middle" font-size="17" font-weight="bold" fill="#2F7D78">TCGA-DLBC</text>
 
-  <rect x="510" y="185" width="90" height="55" rx="8" fill="#eef2f7" stroke="#4b6b8a"/>
-  <text x="555" y="217" text-anchor="middle" font-size="12" fill="#22344a">صورة</text>
-  <rect x="610" y="185" width="90" height="55" rx="8" fill="#eef7f0" stroke="#4a8a5c"/>
-  <text x="655" y="217" text-anchor="middle" font-size="12" fill="#22402a">جين</text>
-  <rect x="710" y="185" width="90" height="55" rx="8" fill="#f7f0ee" stroke="#a1614c"/>
-  <text x="755" y="217" text-anchor="middle" font-size="12" fill="#402a22">سريري</text>
+    <circle cx="100" cy="140" r="6" fill="#2F7D78"/>
+    <text x="118" y="145" font-size="12" fill="#1E2A38">48 مريضًا فقط</text>
 
-  <text x="660" y="270" text-anchor="middle" font-size="12" fill="#6b5a80">الوسائط الثلاث متوفرة معًا</text>
-  <text x="660" y="290" text-anchor="middle" font-size="12" fill="#b8862f" font-weight="bold">لكن 9 أحداث وفاة فقط</text>
-  <text x="660" y="315" text-anchor="middle" font-size="11" fill="#8a97a6">مجموعة صغيرة وغنية</text>
+    <circle cx="100" cy="190" r="6" fill="#2F7D78"/>
+    <text x="118" y="195" font-size="12" fill="#1E2A38">الوسائط الثلاث متوفرة معًا:</text>
+    <text x="118" y="213" font-size="11" fill="#6b6558">صورة + جين + بيانات سريرية</text>
 
-  <!-- left card: DLBCL-Morph -->
-  <rect x="60" y="60" width="360" height="280" rx="14" fill="#eef2f7" stroke="#4b6b8a" stroke-width="2"/>
-  <text x="240" y="100" text-anchor="middle" font-size="18" fill="#22344a">DLBCL-Morph</text>
-  <text x="240" y="140" text-anchor="middle" font-size="30" fill="#22344a" font-weight="bold">170</text>
-  <text x="240" y="160" text-anchor="middle" font-size="13" fill="#5b6b7a">مريضًا (من أصل 209)</text>
+    <circle cx="100" cy="245" r="6" fill="#2F7D78"/>
+    <text x="118" y="250" font-size="12" fill="#1E2A38">تلوين واحد للأنسجة: H&amp;E</text>
 
-  <rect x="140" y="185" width="90" height="55" rx="8" fill="#eef2f7" stroke="#4b6b8a"/>
-  <text x="185" y="217" text-anchor="middle" font-size="12" fill="#22344a">صورة</text>
-  <rect x="250" y="185" width="90" height="55" rx="8" fill="#f2f2f2" stroke="#999999" stroke-dasharray="4,3"/>
-  <text x="295" y="217" text-anchor="middle" font-size="12" fill="#999999">لا جين</text>
+    <circle cx="100" cy="300" r="6" fill="#2F7D78"/>
+    <text x="118" y="305" font-size="12" fill="#1E2A38">تسعة أحداث وفاة فقط</text>
+    <text x="118" y="323" font-size="11" fill="#6b6558">(قوة إحصائية محدودة جدًا)</text>
 
-  <text x="240" y="270" text-anchor="middle" font-size="12" fill="#5b6b7a">صور فقط، دون بيانات جينية</text>
-  <text x="240" y="290" text-anchor="middle" font-size="12" fill="#4a8a5c" font-weight="bold">مجموعة أكبر حجمًا</text>
-  <text x="240" y="315" text-anchor="middle" font-size="11" fill="#8a97a6">تُستخدم لاختبار الثبات</text>
+    <circle cx="100" cy="355" r="6" fill="#2F7D78"/>
+    <text x="118" y="360" font-size="12" fill="#1E2A38">الدور في المشروع:</text>
+    <text x="118" y="378" font-size="11" fill="#6b6558">بناء وتقييم النموذج الثلاثي</text>
+    <text x="118" y="394" font-size="11" fill="#6b6558">الكامل (الدمج متعدد الوسائط)</text>
+
+    <rect x="90" y="405" width="350" height="30" rx="6" fill="#EDE8DE"/>
+    <text x="265" y="425" text-anchor="middle" font-size="11" fill="#1E2A38">أصغر حجمًا لكن الأغنى من حيث الوسائط</text>
+  </g>
+
+  <!-- DLBCL-Morph column -->
+  <g>
+    <rect x="530" y="70" width="410" height="380" rx="12" fill="#FFFFFF" stroke="#C9A227" stroke-width="2"/>
+    <text x="735" y="102" text-anchor="middle" font-size="17" font-weight="bold" fill="#C9A227">DLBCL-Morph</text>
+
+    <circle cx="570" cy="140" r="6" fill="#C9A227"/>
+    <text x="588" y="145" font-size="12" fill="#1E2A38">209 مريضًا</text>
+    <text x="588" y="163" font-size="11" fill="#6b6558">170 لديهم صور TMA صالحة</text>
+
+    <circle cx="570" cy="190" r="6" fill="#C9A227"/>
+    <text x="588" y="195" font-size="12" fill="#1E2A38">صور نسيجية + بيانات سريرية معًا</text>
+    <text x="588" y="213" font-size="11" fill="#6b6558">لكن دون بيانات جينية (RNA-seq)</text>
+
+    <circle cx="570" cy="245" r="6" fill="#C9A227"/>
+    <text x="588" y="250" font-size="12" fill="#1E2A38">ستة أنواع تلوين للأنسجة</text>
+    <text x="588" y="268" font-size="11" fill="#6b6558">H&amp;E وخمسة علامات مناعية</text>
+
+    <circle cx="570" cy="300" r="6" fill="#C9A227"/>
+    <text x="588" y="305" font-size="12" fill="#1E2A38">حجم أكبر بكثير من TCGA-DLBC</text>
+
+    <circle cx="570" cy="335" r="6" fill="#C9A227"/>
+    <text x="588" y="340" font-size="12" fill="#1E2A38">الدور في المشروع:</text>
+    <text x="588" y="358" font-size="11" fill="#6b6558">اختبار ثبات النموذج، ومقارنة</text>
+    <text x="588" y="374" font-size="11" fill="#6b6558">نماذج الرؤية الحديثة (VLM)</text>
+
+    <rect x="560" y="405" width="350" height="30" rx="6" fill="#FBF3E7"/>
+    <text x="735" y="425" text-anchor="middle" font-size="11" fill="#1E2A38">أكبر حجمًا، يثبت أن الحجم يحسّن ثبات النتائج</text>
+  </g>
 </svg>

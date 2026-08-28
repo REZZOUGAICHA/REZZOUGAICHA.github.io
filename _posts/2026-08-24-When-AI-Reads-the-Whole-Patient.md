@@ -219,5 +219,12 @@ Vrabac et al., 2021: مجموعة البيانات الثانية، واعتُم
 - Precision Oncology: علم الأورام الدقيق
 - Bootstrap Optimism Correction: التصحيح الإحصائي للتفاؤل الزائد
 
-**رزوق عائشة**
+يمثّل هذا المقال ملخّصًا لمذكرة تخرج المهندستين عائشة رزوق ومالك أمينة، بعنوان:
+
+«التحسين متعدّد الوسائط والمُخصّص للتنبؤات التشخيصية والعلاجية في سرطان الغدد اللمفاوية»
+
+Multimodal and Personalized Optimization of Diagnostic and Therapeutic Predictions in Lymphoma
+
+
 عندما يقرأ الذكالي المريض بأكمله
+**عائش**
